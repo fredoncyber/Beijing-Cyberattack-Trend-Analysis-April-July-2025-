@@ -1,26 +1,41 @@
 # Beijing Cyberattack Trend Analysis (April–July 2025)
 
-This dataset translates a strategic intelligence report on Beijing’s evolving cyber offensive into **actionable data for decision-making**.  
-It maps the observed APT activity, MITRE ATT&CK TTPs, and sector-specific risks into executive-level operational actions.
+This repository transforms Beijing’s 2025 cyber offensive report into **actionable, structured intelligence** suitable for cybersecurity analysts, GRC professionals, and decision-makers.
 
-## 📊 File
-- **Beijing_Cyberattack_Actionable_Data.csv** — structured dataset for analysis, dashboards, or threat modeling.
+## 📊 Dataset Overview
+**File:** `Beijing_Cyberattack_Actionable_Data.csv`
 
-## 🧠 Data Fields
+This CSV provides a condensed dataset of observed trends, mapped risks, and strategic mitigation actions extracted from the full intelligence report.
+
 | Column | Description |
 |--------|-------------|
-| Category | The domain or sector affected (Business Continuity, Finance, etc.) |
+| Category | Operational domain or sector affected |
 | Risk Level | Priority or severity level |
-| Threat Groups | Associated Chinese APTs |
-| Risks | Key operational or strategic risks |
-| Actions | Recommended mitigation or strategic countermeasures |
+| Threat Groups | Associated Chinese APTs or threat clusters |
+| Risks | Specific operational or strategic risk |
+| Actions | Recommended countermeasures or response activities |
 
-## 🧩 Example Use Cases
-- Building **threat heatmaps** or **risk dashboards**  
-- Training **AI threat models** on geopolitical cyber trends  
-- Supporting **GRC compliance analytics** or **supply chain risk reports**
+## 🧠 Analytical Use Cases
+- Create **risk dashboards** and **heatmaps** for Chinese APT activities  
+- Model **sector-specific vulnerability exposure** in U.S. critical infrastructure  
+- Support **AI-driven threat prediction** and **compliance automation frameworks**  
+- Use as contextual training data for **MITRE ATT&CK TTP correlations**
 
-## 📚 Source
-Derived from: *Beijing’s Evolving Cyber Offensive Against the US (April–July 2025)* — compiled from CISA, DIA, FBI, CrowdStrike, Microsoft, Mandiant, and Recorded Future OSINT.
+## 🧩 Context Summary
+This dataset is based on the report *“Beijing’s Evolving Cyber Offensive Against the US (April–July 2025)”* — compiled from authoritative OSINT sources including CISA, DIA, FBI, Mandiant, CrowdStrike, Microsoft, and Recorded Future.
 
----
+## ⚙️ Repository Structure
+```
+Beijing-Cyberattack-Trend-Analysis/
+│
+├── Beijing_Cyberattack_Actionable_Data.csv
+├── README.md
+└── LICENSE
+```
+
+## 📄 License
+This project is licensed under the MIT License. See `LICENSE` for details.
+
+## 🧑‍💻 Author
+**Fred Ofori-Nkwagyie (@fredoncyber)**  
+Cybersecurity | GRC | Threat Intelligence | Data Analytics
