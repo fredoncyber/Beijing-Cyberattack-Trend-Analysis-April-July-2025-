@@ -1,41 +1,46 @@
-# Beijing Cyberattack Trend Analysis (April–July 2025)
+# Cyber Threat Trend Analysis — April–July 2025
 
-This repository transforms Beijing’s 2025 cyber offensive report into **actionable, structured intelligence** suitable for cybersecurity analysts, GRC professionals, and decision-makers.
+A cybersecurity research portfolio project analyzing **reported threats attributed to Beijing-linked actors** during April–July 2025.
 
-## 📊 Dataset Overview
-**File:** `Beijing_Cyberattack_Actionable_Data.csv`
+> **Scope:** Historical open-source research. Attribution and incident claims depend on their underlying sources; this is not a live intelligence feed or an independent incident investigation.
 
-This CSV provides a condensed dataset of observed trends, mapped risks, and strategic mitigation actions extracted from the full intelligence report.
+## What problem does it address?
 
-| Column | Description |
-|--------|-------------|
-| Category | Operational domain or sector affected |
-| Risk Level | Priority or severity level |
-| Threat Groups | Associated Chinese APTs or threat clusters |
-| Risks | Specific operational or strategic risk |
-| Actions | Recommended countermeasures or response activities |
+Cybersecurity teams need to turn complex threat reporting into understandable risks and practical defensive priorities. This project presents a written analysis of reported activities, possible impacts, and mitigations.
 
-## 🧠 Analytical Use Cases
-- Create **risk dashboards** and **heatmaps** for Chinese APT activities  
-- Model **sector-specific vulnerability exposure** in U.S. critical infrastructure  
-- Support **AI-driven threat prediction** and **compliance automation frameworks**  
-- Use as contextual training data for **MITRE ATT&CK TTP correlations**
+## What's actually included?
 
-## 🧩 Context Summary
-This dataset is based on the report *“Beijing’s Evolving Cyber Offensive Against the US (April–July 2025)”* — compiled from authoritative OSINT sources including CISA, DIA, FBI, Mandiant, CrowdStrike, Microsoft, and Recorded Future.
+- [Cyber Threat Trend Analysis report (DOCX)](Beijing%20Cyberattack%20Trend%20Analysis_final.docx) — the main written report.
+- [LICENSE](LICENSE) — license information.
 
-## ⚙️ Repository Structure
-```
-Beijing-Cyberattack-Trend-Analysis/
-│
-├── Beijing_Cyberattack_Actionable_Data.csv
-├── README.md
-└── LICENSE
+**Repository note:** A CSV dataset mentioned in the previous README was not present in the repository when it was reviewed. This version therefore makes no claim that a downloadable CSV or dashboard is included.
+
+## How to explore the work
+
+1. Read the report and identify the reported events and sources.
+2. Distinguish **reported observations** from interpretations and attribution.
+3. Review potential impacts on infrastructure, information security, and operations.
+4. Consider which recommended mitigations are practical and evidence-based.
+5. Verify any time-sensitive conclusions against current threat advisories.
+
+## Research workflow
+
+```text
+Review source reports → Identify patterns → Discuss risks → Suggest defensive actions
 ```
 
-## 📄 License
-This project is licensed under the MIT License. See `LICENSE` for details.
+This represents an analytical process, not an automated data pipeline.
 
-## 🧑‍💻 Author
-**Fred Ofori-Nkwagyie (@fredoncyber)**  
-Cybersecurity | GRC | Threat Intelligence | Data Analytics
+## Skills demonstrated
+
+Open-source research · threat trend interpretation · cybersecurity risk analysis · structured reporting · communicating security findings.
+
+## Limitations
+
+- Historical findings may not reflect the current threat environment.
+- Attribution is uncertain unless independently corroborated.
+- The report does not establish access to private intelligence, forensic evidence, or a deployed detection system.
+
+## License
+
+See [LICENSE](LICENSE).
